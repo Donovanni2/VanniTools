@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -63,6 +63,51 @@
       ],
       "indirect": false,
       "globalContextsFilePath": "",
+      "codeComponents": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "ewHDR3G74LbMZksuRAxqqS",
+      "projectApiToken": "xEo1tEJqjXIzOC9mQhakeFqECiB5eYCXcVqzDl8YAe1Z6p77FprSnIgh4A7zfhpPNZQCfEzgAnZfgQVappfyQ",
+      "projectName": "VanniTools",
+      "version": "latest",
+      "cssFilePath": "plasmic/vanni_tools/plasmic_vanni_tools.module.css",
+      "components": [
+        {
+          "id": "0dC_Tcdkpwbw",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "ewHDR3G74LbMZksuRAxqqS",
+          "renderModuleFilePath": "plasmic/vanni_tools/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/vanni_tools/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Zw2tdVnUuAbpp",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/vanni_tools/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "uf2z9-wC7l_tW",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/vanni_tools/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "hOitsVQW6z3ey",
+          "name": "image.png",
+          "filePath": "../public/plasmic/vanni_tools/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
       "codeComponents": []
     }
   ],
@@ -72,6 +117,12 @@
         "id": "Jtm_5Eh3YbzpY",
         "name": "Screen",
         "projectId": "3xbNXau7XSmLY3zXCzzGaL",
+        "contextFilePath": "plasmic/vanni_tools/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "zphuhtSHQU4X9",
+        "name": "Screen",
+        "projectId": "ewHDR3G74LbMZksuRAxqqS",
         "contextFilePath": "plasmic/vanni_tools/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
