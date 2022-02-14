@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3xbNXau7XSmLY3zXCzzGaL",
+      "projectApiToken": "Dfi7gNV1vBuj32lHDE6bK3Xy5gqDDb13I4nzqn2gS5ENa3zrj5RTRqXmCkSn1NHZWxN60kGZny5JfBa76A",
+      "projectName": "VanniTools",
+      "version": "latest",
+      "cssFilePath": "plasmic/vanni_tools/plasmic_vanni_tools.module.css",
+      "components": [
+        {
+          "id": "uoheY9w3GfNE",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3xbNXau7XSmLY3zXCzzGaL",
+          "renderModuleFilePath": "plasmic/vanni_tools/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/vanni_tools/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "stcdI16Pe_mwX",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/vanni_tools/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "On0D1tQLlzpmo",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/vanni_tools/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "USsunwXX6hOfj",
+          "name": "image.png",
+          "filePath": "../public/plasmic/vanni_tools/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Jtm_5Eh3YbzpY",
+        "name": "Screen",
+        "projectId": "3xbNXau7XSmLY3zXCzzGaL",
+        "contextFilePath": "plasmic/vanni_tools/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}
